@@ -6,23 +6,23 @@ This project performs customer segmentation for a mall using K-Means clustering.
 **Dataset**
 Source: Mall Customers Dataset
 Columns:
-CustomerID – Unique identifier
-Gender – Male/Female
-Age – Customer age
-Annual Income (k$) – Annual income in thousands
-Spending Score (1-100) – Spending behavior
+- CustomerID – Unique identifier
+- Gender – Male/Female
+- Age – Customer age
+- Annual Income (k$) – Annual income in thousands
+- Spending Score (1-100) – Spending behavior
 
 **Preprocessing:**
 Gender encoded (Male = 0, Female = 1)
 No missing values
 
 **Methodology**
-Exploratory Data Analysis (EDA): Visualized relationships between features.
-Feature Selection: Chose Annual Income and Spending Score for clustering.
-Clustering: Applied K-Means to segment customers into 5 clusters.
-Centroid Visualization: Labeled centroids plotted for clear cluster interpretation.
-Cluster Profiling: Calculated average income, spending, age, gender distribution, and cluster size.
-Business Insights: Assigned actionable marketing strategies to each cluster.
+- Exploratory Data Analysis (EDA): Visualized relationships between features.
+- Feature Selection: Chose Annual Income and Spending Score for clustering.
+- Clustering: Applied K-Means to segment customers into 5 clusters.
+- Centroid Visualization: Labeled centroids plotted for clear cluster interpretation.
+- Cluster Profiling: Calculated average income, spending, age, gender distribution, and cluster size.
+- Business Insights: Assigned actionable marketing strategies to each cluster.
 
 **Clusters & Insights**
 Cluster	Avg Income	Avg Spending	Avg Age	Gender (F/M)	Count	Business Action
